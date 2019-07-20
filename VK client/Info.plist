@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>vkauthorize</string>
+        <string>vk7064093</string>
+    </array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -16,27 +21,6 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleURLName</key>
-			<string>vk7064093</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>&lt;key&gt;LSApplicationQueriesSchemes&lt;/key&gt;
-</string>
-				<string>&lt;array&gt;
-</string>
-				<string>&lt;string&gt;vkauthorize&lt;/string&gt;
-</string>
-				<string>&lt;string&gt;vk$YOUR_APP_ID$&lt;/string&gt;
-</string>
-				<string>&lt;/array&gt;</string>
-			</array>
-		</dict>
-	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>

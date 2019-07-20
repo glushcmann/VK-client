@@ -20,6 +20,15 @@ class ViewController: UIViewController {
 
     @IBAction func authButtonPressed(_ sender: Any) {
         
+        VK.sessions.default.logIn(
+            onSuccess: { _ in
+                // Start working with SwiftyVK session here
+        },
+            onError: { _ in
+                // Handle an error if something went wrong
+        }
+        )
+
     }
 }
 
